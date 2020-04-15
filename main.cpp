@@ -1,3 +1,7 @@
+/*
+First, we keep the number of occurences of each number in an array using Mo's algorithm, then for each interval, we take 30 random indexes 
+in it, using combinatorics we can prove that in the chance of getting the answer in one of these random numbers is more than 99.9999%.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 #define F first
